@@ -21,6 +21,10 @@ public abstract class Warrior {
         return gold;
     }
 
+    public void addGold(int value) {
+        gold += value;
+    }
+
     public int attack() {
         if (Math.random() > 0.3) {
             return weapon.getDamage();

@@ -23,6 +23,10 @@ public class Cleric {
         return gold;
     }
 
+    public void addGold(int value) {
+        gold += value;
+    }
+
     public int getHealth() {
         return health;
     }
